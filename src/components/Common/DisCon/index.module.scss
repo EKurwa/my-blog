@@ -1,5 +1,16 @@
 .disContaienr {
+  display: flex;
+  justify-content: space-evenly;
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
+  padding: 4rem 9rem;
   background-color: var(--main-bg-color);
+}
+.leftContainer {
+  width: calc(100% - 250px);
+  margin-right: 40px;
+}
+.rightContaienr {
+  width: 350px;
 }

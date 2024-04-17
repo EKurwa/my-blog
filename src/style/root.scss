@@ -3,6 +3,12 @@
   --bg-color: #fff;
   --text-color: #000;
   --active-color: #928cee;
+  --card-text-color: rgb(75 85 99);
+  --card-tag-color: rgb(156 163 175);
+  --card-subTitle-color: rgb(55 65 81);
+  --card-tag-bg-color: #cdd1d7;
+  --card-tag-active-bg-color: var(--active-color);
+  --personal-info-color: rgb(71, 86, 107);
 }
 * {
   scrollbar-width: thin;
@@ -15,4 +21,15 @@ html {
   height: 100vh;
   overflow-x: hidden;
   background-color: var(--main-bg-color);
+  /* 设置Firefox浏览器选中文本的样式 */
+  ::-moz-selection {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+
+  /* 设置WebKit/Blink浏览器（如Chrome和Safari）选中文本的样式 */
+  ::selection {
+    background-color: #007bff;
+    color: #ffffff;
+  }
 }
