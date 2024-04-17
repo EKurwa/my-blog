@@ -1,0 +1,10 @@
+.header {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  // background-color: var(--bg-color);
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
