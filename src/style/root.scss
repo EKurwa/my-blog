@@ -4,9 +4,15 @@
   --text-color: #000;
   --active-color: #928cee;
 }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--active-color) transparent;
+  box-sizing: border-box;
+}
 
 html {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   background-color: var(--main-bg-color);
 }
